@@ -1,7 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=Montserrat:700,400);
 
-a{
-	text-decoration: none;
+a:link{
+	text-decoration: none!important;
 }
 
 #TG-banner{
@@ -28,7 +28,7 @@ a{
 	margin: 0 auto;
 	border-top: 1px solid;
 	border-bottom: 1px solid;
-	border-color: rgb(200,200,0);
+	border-color: rgb(200,200,0)!important;
 }
 
 .line{
@@ -54,6 +54,8 @@ a{
 }
 #banner-button{
 	background-color: rgb(255,255,255);
+	color: rgb(0,0,0);
+	border-color: rgb(0,0,0);
 	font-size: 1.6em;
 	margin: 0.5em auto;
 	border: solid 2px;
